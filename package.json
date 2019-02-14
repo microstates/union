@@ -1,0 +1,22 @@
+{
+  "name": "@microstates/union",
+  "version": "0.1.0",
+  "description": "Crisply modeled state machines with tagged union types for Microstates.",
+  "main": "index.js",
+  "repository": "https://github.com/microstates/union",
+  "author": "Charles Lowell <cowboyd@frontside.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha --recursive -r tests/setup tests"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "expect": "^24.1.0",
+    "mocha": "^5.2.0"
+  }
+}
