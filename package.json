@@ -12,7 +12,9 @@
   "browser": "dist/microtates-union.umd.js",
   "scripts": {
     "test": "mocha --recursive -r tests/setup tests",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "prerelease": "npm test && npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
