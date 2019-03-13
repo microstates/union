@@ -18,5 +18,8 @@
     "babel-eslint": "^10.0.1",
     "expect": "^24.1.0",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "microstates": "^0.13.0"
   }
 }
