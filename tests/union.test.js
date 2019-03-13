@@ -1,6 +1,6 @@
 import expect from 'expect';
 
-import Union from '../src/union';
+import Union from '../src';
 import { create } from 'microstates';
 
 describe('Using a union type to construct a Maybe value', ()=> {
