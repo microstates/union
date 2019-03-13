@@ -4,7 +4,7 @@ Crisply represent state machines using union types.
 
 ``` javascript
 
-import { Union } from '@microstates/union';
+import Union from '@microstates/union';
 
 const Task = Union({
   Pending: Task => class extends Task {

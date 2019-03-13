@@ -1,5 +1,6 @@
-import { create, valueOf } from 'microstates';
-import expect from 'expect';
+import * as M from 'microstates';
+
+const { create, valueOf } = M;
 
 export default function Union(members, Base = class {}) {
   let types = Object.keys(members);
