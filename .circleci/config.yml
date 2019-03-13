@@ -1,0 +1,16 @@
+version: 2.2
+
+orbs:
+  node: circleci/node@0.0.8
+
+workflows:
+  build:
+    jobs:
+      - node/install-package-manager:
+          name: "Install yarn"
+          yarn: true
+      - node/with-cache:
+          name: "Install and run tests"
+          steps:
+            - run: yarn
+            - run: yarn test
