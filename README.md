@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40microstates%2Funion.svg)](https://badge.fury.io/js/%40microstates%2Funion) [![Bundle Size](https://badgen.net/bundlephobia/minzip/@microstates/union)](https://bundlephobia.com/result?p=@microstates/union) [![CircleCI](https://badgen.net/circleci/github/microstates/union/master)](https://circleci.com/gh/microstates/union)
+
 ## @microstates/union
 
 Crisply represent state machines using union types.
