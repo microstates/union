@@ -1,4 +1,5 @@
-[![npm version](https://badge.fury.io/js/%40microstates%2Funion.svg)](https://badge.fury.io/js/%40microstates%2Funion) [![Bundle Size](https://badgen.net/bundlephobia/minzip/@microstates/union)](https://bundlephobia.com/result?p=@microstates/union) [![CircleCI](https://badgen.net/circleci/github/microstates/union/master)](https://circleci.com/gh/microstates/union)
+[![npm version](https://badge.fury.io/js/%40microstates%2Funion.svg)](https://badge.fury.io/js/%40microstates%2Funion) [![Bundle Size](https://badgen.net/bundlephobia/minzip/@microstates/union)](https://bundlephobia.com/result?p=@microstates/union) [![CircleCI](https://badgen.net/circleci/github/microstates/union/master)](https://circleci.com/gh/microstates/union) [![Chat on Discord](https://img.shields.io/discord/556202291586269214.svg)](http://bit.ly/microstates-discord)
+
 
 ## @microstates/union
 
